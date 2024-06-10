@@ -15,6 +15,7 @@
   --Light-pink: hsl(275, 100%, 97%);
   --Grayish-purple: hsl(292, 16%, 49%);
   --Dark-purple: hsl(292, 42%, 14%);
+  --Purple : hsl(292, 52%, 42%);
 
 }
 
@@ -62,6 +63,14 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.que {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.que:hover {
+  color: var(--Purple);
+  scale: 1.01;
 }
 .question-ans {
   font-size: 0.9rem;

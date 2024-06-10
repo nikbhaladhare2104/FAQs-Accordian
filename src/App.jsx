@@ -17,7 +17,9 @@ function App() {
             onClick={() => setIdx(idx === item.id ? null : item.id)}
           >
             <div className="question-title">
-              <p style={{ fontWeight: "700", maxWidth: "90%" }}>{item.que}</p>
+              <p style={{ fontWeight: "700", maxWidth: "90%" }} className="que">
+                {item.que}
+              </p>
               {idx === item.id ? (
                 <img
                   src="/icon-minus.svg"
